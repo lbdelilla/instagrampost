@@ -1,0 +1,83 @@
+body{
+    background-color: #bdbdbd;
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+
+div{
+    box-sizing: border-box;
+}
+
+div.post, div.post2{ 
+    background-color: white;
+    margin-top: 20px;
+}
+div.post .post-header div:first-child, div.post2 .post-header div:first-child{
+    display: inline-block;
+    width: 80%;
+}
+
+div.post .post-header div:last-child, div.post2 .post-header div:last-child{
+    display: inline-block;
+    width: 20%;
+    text-align: right;
+    padding-right: 10px;
+    color: grey;
+}
+
+img.logo-html{
+    margin-top: 20px;
+    margin-left: 15px;
+}
+
+img.menu-icon{
+    float: right;
+    margin-top: -60px;
+    margin-right: -480px;
+}
+
+h4.title{
+    margin-right: 380px;
+    margin-bottom: 0px;
+    margin-top: 17px;
+    float: right;
+    padding-bottom: 0px;
+}
+
+p.text{
+    float: right;
+    margin-right: 364px;
+    padding-top: 0px;
+    margin-top: -15px;
+    
+}
+
+div.container{
+    width: 600px; 
+    margin: auto;
+}
+
+img.heart-icon{
+    margin-left: 7px;
+    margin-top: 10px;
+}
+
+img.message-icon{
+    padding: 2px;
+}
+
+img.saveicon{
+    margin-left: 420px;
+
+}
+
+p.text2{
+    margin-left: 10px;
+    margin-right: 10px;
+    padding-bottom: 20px;
+}
+
+img.image1{
+    height: 100%;
+}
