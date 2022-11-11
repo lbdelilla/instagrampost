@@ -62,15 +62,12 @@ div.container{
 img.heart-icon{
     margin-left: 7px;
     margin-top: 10px;
-    height: 38px;
-}
-
-img.message-icon{
-    padding: 2px;
+    
 }
 
 img.saveicon{
-    margin-left: 420px;
+    float: right;
+    margin-top: 10px;
 
 }
 
@@ -86,11 +83,13 @@ img.image1{
 }
 
 .posticons {
-    padding: 5px; /* Con esto das un espaciado de 5px en todos los lados del div, de forma que te ahorrarías poner espacios en cada uno de los iconos */
+    padding: 5px; 
 }
 
-.posticons > img { /* Esto indica que el estilo se aplicará a las img que están justo debajo de .posticons */
-    width: 35px; /* Con esto se asignará un ancho de 35px */
+.posticons > img { 
+    width: 32px; 
+    height: 32px;
+
 }
 
 .menu-icon {
