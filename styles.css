@@ -59,6 +59,7 @@ div.container{
     margin: auto;
 }
 
+
 img.heart-icon{
     margin-left: 7px;
     margin-top: 10px;
@@ -71,6 +72,7 @@ img.saveicon{
 
 }
 
+
 p.text2{
     margin-left: 10px;
     margin-right: 10px;
@@ -82,6 +84,7 @@ img.image1{
     width: 100%;
 }
 
+
 .posticons {
     padding: 5px; 
 }
@@ -92,7 +95,20 @@ img.image1{
 
 }
 
+
 .menu-icon {
     width:20px;
+}
+
+img.saveicon{
+    position: relative;  
+    justify-content: right;
+    padding: 5px; 
+    display: flex; 
+    size:100%;
+    margin:2px;
+    width: 35px; 
+    padding: 2px;
+    float: right;
 }
 
